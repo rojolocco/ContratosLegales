@@ -9,12 +9,12 @@ app = FastAPI()
 
 
 # Home endpoint
-@app.get("/", tags=["Home"])
-def get_home():
-    return {"message": "Welcome Home!"}
+@app.get("/contratos", tags=["Contratos"])
+def get_contratos():
+    return {"message": "Welcome Contratos!"}
 
 
 # Run application
 if __name__ == "__main__":
-    uvicorn.run("main:app", port=8000, reload=True)
+    uvicorn.run("main:app", port=8010, reload=True)
     
