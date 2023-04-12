@@ -1,0 +1,10 @@
+# Folders
+*.vscode/
+__pycache__/
+
+# Enviroments
+.venv/
+.env
+
+# Development
+requirements_dev.txt
