@@ -8,3 +8,6 @@ __pycache__/
 
 # Development
 requirements_dev.txt
+
+# Testing
+.pytest_cache/
