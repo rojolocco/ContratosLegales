@@ -4,6 +4,7 @@ __pycache__/
 
 # Enviroments
 .venv/
+.venv_linux/
 .env
 
 # Development
